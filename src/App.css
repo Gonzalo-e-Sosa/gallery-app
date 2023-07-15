@@ -1,0 +1,46 @@
+#app{
+    display: grid;
+    place-items: center;
+}
+
+#search{
+    display: flex;
+    place-content: center;
+}
+
+#search-form{
+    display: flex;
+    place-content: center;
+}
+
+#search-input{
+    outline: none;
+    width: 30rem;
+    padding: .5rem;
+}
+
+#search-btn{
+    padding: .5rem;
+}
+
+#gallery{
+    width: 100dvw;
+    margin: 0 auto;
+    gap: 1rem;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.gallery-figure{
+    display: flex;
+    place-content: center;
+    flex-direction: column;
+}
+
+.gallery-img{
+    display: block;
+    height: auto;
+    width: 100%;
+    object-fit: cover;
+}
